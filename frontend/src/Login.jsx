@@ -34,7 +34,7 @@ export default function Login({ setIsLoggedIn }) {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/login", { email, password });
+      const res = await axios.post("https://bit-2re6.onrender.com/login", { email, password });
       alert(res.data.message);
 
       // ✅ Save token in localStorage for persistence

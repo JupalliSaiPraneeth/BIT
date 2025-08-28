@@ -11,7 +11,7 @@ export default function Signup() {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/signup", { email, phone, password });
+      const res = await axios.post("https://bit-2re6.onrender.com/signup", { email, phone, password });
       alert(res.data.message);
       window.location.href = "/";
     } catch (err) {
