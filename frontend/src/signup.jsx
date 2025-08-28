@@ -13,9 +13,11 @@ export default function Signup() {
     try {
       const res = await axios.post("https://bit-2re6.onrender.com/signup", { email, phone, password });
       alert(res.data.message);
+      
       window.location.href = "/";
     } catch (err) {
       alert(err.response?.data?.error || "Signup failed");
+      console.log(err.response?.data?.error)
     }
   };
 

@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 import { useState } from "react";
 import Login from "./Login.jsx";
-import Signup from "./signup.jsx"; // make sure file name matches exactly (capital S)
+import Signup from "./Signup.jsx"; // make sure file name matches exactly (capital S)
 import "./style.css";
 import dannam from "./dannam.png"
 
