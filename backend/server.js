@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // ✅ MongoDB connection
-mongoose.connect("mongodb+srv://SaiPraneeth:Praneeth@cluster0.oovqtrw.mongodb.net/", {
+mongoose.connect("mongodb+srv://SaiPraneeth:Test123.@cluster0.oovqtrw.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
